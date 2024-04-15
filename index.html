@@ -12,17 +12,17 @@
 </head>
 
 <body class="d-flex flex-column vh-100" onload="listarComentarios()">
-    <img class="banner rounded" src="./img/banner.png" alt="">
-    <header class="mt-5 ">
+    <div class="d-flex justify-content-center">
+        <img class="banner rounded" src="./img/banner.png" alt="">
+    </div>
+    <header>
     </header>
     <main class="flex-fill py-5">
         <div id="principal" class="text-center d-flex flex-column container">
-            <div id="fonte1">
-                <p class="mt-4">ONGsConnect</p>
-            </div>
             <div id="fonte2">
-                <p class="mt-3">Em Busca do Desenvolvimento</p>
-                <p>Humanitário</p>
+                <strong>
+                    <p class="mt-3">Em Busca do Desenvolvimento Humanitário</p>
+                </strong>
             </div>
             <p class="mt-3">A ONGsConnect é um blog cujo objetivo é recomendar e abrir diálogos sobre organizações e
                 trabalhos voluntários em Itapeva-SP, destacando suas importâncias para a comunidade local e melhorando
@@ -35,9 +35,11 @@
                 trabalhos voluntários e Organizações, opinando e/ou argumentando sobre.</h3>
             <div id="ongs">
                 <div class="text-center m-4">
-                    <h2><strong>ONGs na região de Itapeva</strong></h2>
+                    <h2>ONGs na região de Itapeva</h2>
                 </div>
-                <p><strong>Informações sobre as ONGs:</strong></p>
+                <div id="informacoes" class="mb-5">
+                    <h2>Informações sobre as ONGs:</h2>
+                </div>
                 <div class="d-flex justify-content-center m-2">
                     <p class="m-2">Associação dos Deficientes Visuais de Itapeva e Região</p>
                     <button class="rounded m-1" onclick="vermais1()">Ver mais</button>
@@ -140,12 +142,12 @@
             </div>
             <div id="caixa" class="d-flex justify-content-center mt-5 align-items-end">
                 <form id="formulario" method="post" onsubmit="enviarDados(event)">
-                    <div class="text-center m-4">
+                    <div id="barra" class="text-center w-75">
                         <h1>Deixe sua Dúvida/Sugestão:</h1>
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" class="rounded mt-4" id="nome" placeholder="Digite aqui ..." required
+                            maxlength="15" />
                     </div>
-                    <label for="nome">Nome:</label>
-                    <input type="text" name="nome" class="rounded" id="nome" placeholder="Digite aqui ..." required
-                        maxlength="15" />
                     <br>
                     <br>
                     <div class="d-flex justify-content-center">
@@ -172,10 +174,10 @@
                     </table>
                 </div>
     </main>
-    <footer class="p-5">
-        <div>
-            <h3><strong>Produção:</strong> Beatriz, Eduarda, Isabelly e Lorena Rinaldo</h3>
-            <h3><strong>Colaboração:</strong> Igor Verneque</h3>
+    <footer class="p-2">
+        <div class="m-2">
+            <p><strong id="producao">Produção:</strong> Beatriz, Eduarda, Isabelly e Lorena Rinaldo</p>
+            <p><strong id="colaboracao">Colaboração:</strong> Igor Verneque</p>
         </div>
     </footer>
 </body>
