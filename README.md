@@ -1,35 +1,53 @@
+# 💝 ONGsConnect
+
+Aplicativo web informativo que apresenta e divulga Organizações Não Governamentais (ONGs) da cidade de Itapeva-SP, aproximando a comunidade de instituições que promovem ações sociais como educação, inclusão, voluntariado e assistência social.
+
 ![Imagem de capa](img/ongsconnect.jpg)
 
-# ONGsConnect
+## 🚀 Funcionalidades
 
-**Descrição:**  
-O ONGsConnect é um site informativo criado com o objetivo de apresentar e divulgar Organizações Não Governamentais (ONGs) da cidade de Itapeva-SP. O projeto visa incentivar a participação cidadã, aproximando a comunidade de instituições que promovem ações sociais importantes como educação, inclusão, voluntariado e assistência social.
+* 📋 Visualizar lista de ONGs cadastradas
+* 🏢 Acessar informações detalhadas de cada instituição (endereço, telefone, e-mail, missão, etc.)
+* ✉️ Enviar comentários, dúvidas ou sugestões via formulário
+* 📄 Visualizar comentários enviados anteriormente
+* ❌ Excluir entradas da seção de comentários
 
-## Índice
-* [Funcionalidades](#funcionalidades)
-* [Tecnologias](#tecnologias-utilizadas)
-* [Autor](#autor)
-* [Licença](#licença)
+## 🛠️ Tecnologias utilizadas
 
-### Funcionalidades:
-* Visualizar lista de ONGs cadastradas.
-* Acessar informações detalhadas de cada instituição (endereço, telefone, e-mail, missão, etc.).
-* Enviar comentários, dúvidas ou sugestões via formulário.
-* Visualizar os comentários enviados anteriormente.
-* Excluir entradas da seção de comentários.
+![HTML](https://img.shields.io/badge/HTML5-markup-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-style-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-logic-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-UI-7952B3?style=for-the-badge\&logo=bootstrap\&logoColor=white)
 
-## Tecnologias Utilizadas
+## 📦 Instalação
 
-#### Front-end:
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+Clone o repositório:
 
-#### Hospedagem:
-![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-121013?style=for-the-badge&logo=github&logoColor=white)
+```bash
+git clone https://github.com/IgorVernequeDev/ONGsConnect.git
+```
 
-## Autor
-* Igor de Almeida Verneque - [GitHub](https://github.com/IgorVernequeDev) - igorverneque5@gmail.com
+Entre na pasta do projeto:
 
-## Licença
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
+```bash
+cd ONGsConnect
+```
+
+Abra o arquivo no navegador (HTML/CSS/JS puro, sem servidor necessário):
+
+```bash
+index.html
+```
+
+Ou publique diretamente em **GitHub Pages**.
+
+## 🎯 Objetivo do projeto
+
+* Criar uma plataforma web informativa e acessível
+* Promover a visibilidade de ONGs locais
+* Incentivar participação cidadã e voluntariado
+* Praticar desenvolvimento front-end com HTML, CSS e JavaScript
+
+## 👨‍💻 Autor
+
+Desenvolvido por *Igor Verneque*
