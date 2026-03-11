@@ -1,7 +1,7 @@
 async function listarComentarios() {
 
   const dados_tabela = document.getElementById("dados_tabela")
-  apiUrl = 'http://127.0.0.1:5000/getall'
+  apiUrl = 'https://ongsconnect.onrender.com/getall'
   const response = await fetch(apiUrl)
 
   const data = await response.json()
@@ -22,7 +22,7 @@ async function listarComentarios() {
 }
 
 async function verComentario(id) {
-  const apiUrl = `http://127.0.0.1:5000/comentario/${id}`
+  const apiUrl = `https://ongsconnect.onrender.com/comentario/${id}`
   const response = await fetch(apiUrl, { method: 'GET' })
 
   if (!response.ok) {
@@ -46,7 +46,7 @@ function verMais(vermais) {
 async function enviarDados(event) {
   event.preventDefault()
   const formData = new FormData(document.getElementById('formulario'))
-  const response = await fetch('http://127.0.0.1:5000/novo', {
+  const response = await fetch('https://ongsconnect.onrender.com/novo', {
     method: 'POST',
     body: formData
   })
