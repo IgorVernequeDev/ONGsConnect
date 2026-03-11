@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ONGsConnect</title>
     <link rel="shortcut icon" href="./img/ongs.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
@@ -40,110 +40,135 @@
                 <div id="informacoes" class="mb-5">
                     <h2>Informações sobre as ONGs:</h2>
                 </div>
+
                 <div class="d-flex justify-content-center m-2">
                     <p class="m-2">Associação dos Deficientes Visuais de Itapeva e Região</p>
-                    <button class="rounded m-1" onclick="vermais1()">Ver mais</button>
+                    <button class="rounded m-1" onclick="verMais('ong1')">Ver mais</button>
                 </div>
-                <div id="ong1" class="d-flex justify-content-center align-items-center">
-                    <ul id="vermais1" class="w-75 rounded m-2"><strong>Endereço:</strong> Rua Tatui, 99-Vila Aparecida Itapeva
-                        <br> <strong>CEP:</strong> 18401120, Brasil.
-                        <br> <strong>Telefone:</strong> 3521-1562. <br> <strong>Nome Fantasia:</strong> Luz da Visão <br> <strong>CNPJ:</strong> 4810983000182.<br>
-                        <strong>Visitação:</strong> Entre em contato para marcar
-                        uma visita. <br> <strong>Trabalho Voluntário:</strong> Consulte as necessidades atuais da
-                        instituição.
-                        <br><strong>Missão:</strong> Promover a inclusão social, a acessibilidade e o
-                        bem-estar dos deficientes visuais da região de Itapeva, garantindo-lhes condições para uma vida
-                        digna e participativa na sociedade. <br> <strong>Atividades:</strong>
-                        Apoio psicológico e emocional; Assistência na obtenção de recursos de acessibilidade; Oficinas
-                        de capacitação e treinamento para o desenvolvimento de habilidades específicas; Atividades
-                        culturais, esportivas e de lazer adaptadas.
-                    </ul>
-                    <img id="img1" src="./img/associacao.jpg" class="rounded" alt="" hidden>
+                <div id="ong1">
+                    <div class="d-flex w-100 justify-content-center align-items-center">
+                        <ul id="vermais" class="w-75 rounded m-2"><strong>Endereço:</strong> Rua Tatui, 99-Vila
+                            Aparecida
+                            Itapeva
+                            <br> <strong>CEP:</strong> 18401120, Brasil.
+                            <br> <strong>Telefone:</strong> 3521-1562. <br> <strong>Nome Fantasia:</strong> Luz da Visão
+                            <br> <strong>CNPJ:</strong> 4810983000182.<br>
+                            <strong>Visitação:</strong> Entre em contato para marcar
+                            uma visita. <br> <strong>Trabalho Voluntário:</strong> Consulte as necessidades atuais da
+                            instituição.
+                            <br><strong>Missão:</strong> Promover a inclusão social, a acessibilidade e o
+                            bem-estar dos deficientes visuais da região de Itapeva, garantindo-lhes condições para uma
+                            vida
+                            digna e participativa na sociedade. <br> <strong>Atividades:</strong>
+                            Apoio psicológico e emocional; Assistência na obtenção de recursos de acessibilidade;
+                            Oficinas
+                            de capacitação e treinamento para o desenvolvimento de habilidades específicas; Atividades
+                            culturais, esportivas e de lazer adaptadas.
+                        </ul>
+                        <img id="img1" src="./img/associacao.jpg" class="rounded" alt="">
+                    </div>
                 </div>
+
                 <div class="d-flex justify-content-center m-2">
                     <p class="m-2">Associação Para Desenvolvimento Educacional e Social do Adolescente de Itapeva</p>
-                    <button class="rounded m-1" onclick="vermais2()">Ver mais</button>
+                    <button class="rounded m-1" onclick="verMais('ong2')">Ver mais</button>
                 </div>
-                <div id="ong2" class="d-flex justify-content-center align-items-center">
-                    <ul id="vermais2" class="w-75 rounded m-2">
-                        <strong>Endereço:</strong> Rua Joaquim de Almeida Barros, 85, Parque São Jorge, Itapeva - SP.
-                        <br>
-                        <strong>CEP:</strong> 18409330, Brasil. <br>
-                        <strong>Telefone:</strong> 15 3522-4145. <br>
-                        <strong>E-mail:</strong> adesai2006@hotmail.com. <br>
-                        <strong>CNPJ:</strong> 50801190000114. <br>
-                        <strong>Visitação:</strong> Entre em contato para marcar uma visita. <br>
-                        <strong>Trabalho Voluntário:</strong> Verifique as necessidades atuais de trabalho voluntário e
-                        entre em contato
-                        para oferecer ajuda. <br>
-                        <strong>Missão:</strong> Promover o desenvolvimento educacional e social dos adolescentes da
-                        região de Itapeva,
-                        oferecendo apoio para que permaneçam na escola e se capacitem para o mercado de trabalho,
-                        visando o seu crescimento pessoal e profissional. <br>
-                        <strong>Atividades:</strong> Apoio à Permanência Escolar e a capacitação para o Trabalho.
-                    </ul>
-                    <img class="rounded" id="img2" src="./img/adesai.jpg" alt="" hidden>
+                <div id="ong2">
+                    <div class="d-flex w-100 justify-content-center align-items-center">
+                        <ul id="vermais" class="w-75 rounded m-2">
+                            <strong>Endereço:</strong> Rua Joaquim de Almeida Barros, 85, Parque São Jorge, Itapeva -
+                            SP.
+                            <br>
+                            <strong>CEP:</strong> 18409330, Brasil. <br>
+                            <strong>Telefone:</strong> 15 3522-4145. <br>
+                            <strong>E-mail:</strong> adesai2006@hotmail.com. <br>
+                            <strong>CNPJ:</strong> 50801190000114. <br>
+                            <strong>Visitação:</strong> Entre em contato para marcar uma visita. <br>
+                            <strong>Trabalho Voluntário:</strong> Verifique as necessidades atuais de trabalho
+                            voluntário e
+                            entre em contato
+                            para oferecer ajuda. <br>
+                            <strong>Missão:</strong> Promover o desenvolvimento educacional e social dos adolescentes da
+                            região de Itapeva,
+                            oferecendo apoio para que permaneçam na escola e se capacitem para o mercado de trabalho,
+                            visando o seu crescimento pessoal e profissional. <br>
+                            <strong>Atividades:</strong> Apoio à Permanência Escolar e a capacitação para o Trabalho.
+                        </ul>
+                        <img class="rounded" id="img2" src="./img/adesai.jpg" alt="">
+                    </div>
                 </div>
+
                 <div class="d-flex justify-content-center m-2">
                     <p class="m-2">Lar do Amor de Itapeva</p>
-                    <button class="rounded m-1" onclick="vermais3()">Ver mais</button>
+                    <button class="rounded m-1" onclick="verMais('ong3')">Ver mais</button>
                 </div>
-                <div id="ong3" class="d-flex justify-content-center align-items-center">
-                    <ul id="vermais3" class="w-75 rounded m-2">
-                        <strong>Endereço:</strong> Rua Ipanema, 426, Vila Aparecida, Itapeva, SP. <br>
-                        <strong>CEP:</strong> 18401200, Brasil. <br>
-                        <strong>Telefone:</strong> 3522-1707. <br>
-                        <strong>E-mail:</strong> lardoamor@hotmail.com <br>
-                        <strong>CNPJ:</strong> 50354992000123. <br>
-                        <strong>Visitação:</strong> Entre em contato para marcar uma visita. <br>
-                        <strong>Trabalho Voluntário:</strong> Verifique as necessidades atuais de trabalho voluntário e
-                        entre em contato
-                        para oferecer ajuda. <br>
-                        <strong>Missão:</strong> Proporcionar assistência e proteção social para crianças em situação de
-                        vulnerabilidade,
-                        oferecendo um ambiente seguro e acolhedor, além de promover seu desenvolvimento integral por
-                        meio de atividades educativas e recreativas. <br>
-                        <strong>Atividades:</strong> A organização oferece serviços de creche para crianças em idade
-                        pré-escolar,
-                        fornecendo cuidados básicos, alimentação adequada, atividades educativas e recreativas, e apoio
-                        emocional.
-                    </ul>
-                    <img id="img3" src="./img/lardoamor.jpg" class="rounded" alt="" hidden>
+                <div id="ong3">
+                    <div class="d-flex w-100 justify-content-center align-items-center">
+                        <ul id="vermais" class="w-75 rounded m-2">
+                            <strong>Endereço:</strong> Rua Ipanema, 426, Vila Aparecida, Itapeva, SP. <br>
+                            <strong>CEP:</strong> 18401200, Brasil. <br>
+                            <strong>Telefone:</strong> 3522-1707. <br>
+                            <strong>E-mail:</strong> lardoamor@hotmail.com <br>
+                            <strong>CNPJ:</strong> 50354992000123. <br>
+                            <strong>Visitação:</strong> Entre em contato para marcar uma visita. <br>
+                            <strong>Trabalho Voluntário:</strong> Verifique as necessidades atuais de trabalho
+                            voluntário e
+                            entre em contato
+                            para oferecer ajuda. <br>
+                            <strong>Missão:</strong> Proporcionar assistência e proteção social para crianças em
+                            situação de
+                            vulnerabilidade,
+                            oferecendo um ambiente seguro e acolhedor, além de promover seu desenvolvimento integral por
+                            meio de atividades educativas e recreativas. <br>
+                            <strong>Atividades:</strong> A organização oferece serviços de creche para crianças em idade
+                            pré-escolar,
+                            fornecendo cuidados básicos, alimentação adequada, atividades educativas e recreativas, e
+                            apoio
+                            emocional.
+                        </ul>
+                        <img id="img3" src="./img/lardoamor.jpg" class="rounded" alt="">
+                    </div>
                 </div>
+
                 <div class="d-flex justify-content-center mt-3">
                     <p class="m-2">Lar Vicentino</p>
-                    <button class="rounded m-1" onclick="vermais4()">Ver mais</button>
+                    <button class="rounded m-1" onclick="verMais('ong4')">Ver mais</button>
                 </div>
-                <div id="ong4" class="d-flex justify-content-center align-items-center">
-                    <ul id="vermais4" class="w-75 rounded m-2">
-                        <strong>Endereço:</strong> Praça D. Silvio Maria Dario, 126, Centro, Itapeva, SP. <br>
-                        <strong>CEP:</strong> 18400100, Brasil. <br>
-                        <strong>Telefone:</strong> 3522-0348. <br>
-                        <strong>E-mail:</strong> ottezam@ig.com.br. <br>
-                        <strong>CNPJ:</strong> 49802762000109. <br>
-                        <strong>Visitação:</strong> Entre em contato para marcar uma visita. <br>
-                        <strong>Trabalho Voluntário:</strong> Verifique com a instituição as necessidades atuais de
-                        trabalho voluntário.
-                        <br>
-                        <strong>Missão:</strong> oferecer assistência e acolhimento a idosos em situação de
-                        vulnerabilidade,
-                        proporcionando-lhes um ambiente seguro, confortável e afetuoso, além de promover seu bem-estar
-                        físico, emocional e social. <br>
-                        <strong>Atividades:</strong> A organização oferece cuidados básicos, como alimentação adequada,
-                        higiene pessoal,
-                        assistência médica e medicamentosa, além de promover atividades recreativas, culturais e de
-                        convivência social para os idosos.
-                    </ul>
-                    <img id="img4" src="./img/larvicentino.jpg" class="rounded" alt="" hidden>
+                <div id="ong4">
+                    <div class="d-flex w-100 justify-content-center align-items-center">
+                        <ul id="vermais" class="w-75 rounded m-2">
+                            <strong>Endereço:</strong> Praça D. Silvio Maria Dario, 126, Centro, Itapeva, SP. <br>
+                            <strong>CEP:</strong> 18400100, Brasil. <br>
+                            <strong>Telefone:</strong> 3522-0348. <br>
+                            <strong>E-mail:</strong> ottezam@ig.com.br. <br>
+                            <strong>CNPJ:</strong> 49802762000109. <br>
+                            <strong>Visitação:</strong> Entre em contato para marcar uma visita. <br>
+                            <strong>Trabalho Voluntário:</strong> Verifique com a instituição as necessidades atuais de
+                            trabalho voluntário.
+                            <br>
+                            <strong>Missão:</strong> oferecer assistência e acolhimento a idosos em situação de
+                            vulnerabilidade,
+                            proporcionando-lhes um ambiente seguro, confortável e afetuoso, além de promover seu
+                            bem-estar
+                            físico, emocional e social. <br>
+                            <strong>Atividades:</strong> A organização oferece cuidados básicos, como alimentação
+                            adequada,
+                            higiene pessoal,
+                            assistência médica e medicamentosa, além de promover atividades recreativas, culturais e de
+                            convivência social para os idosos.
+                        </ul>
+                        <img id="img4" src="./img/larvicentino.jpg" class="rounded" alt="">
+                    </div>
                 </div>
+
             </div>
             <div id="caixa" class="d-flex justify-content-center mt-5 align-items-end">
                 <form id="formulario" method="post" onsubmit="enviarDados(event)">
-                    <div id="barra" class="text-center w-75">
-                        <h1>Deixe sua Dúvida/Sugestão:</h1>
+                    <h1>Deixe sua Dúvida/Sugestão:</h1>
+                    <div id="barra" class="text-center mt-4">
                         <label for="nome">Nome:</label>
-                        <input type="text" name="nome" class="rounded mt-4" id="nome" placeholder="Digite aqui ..." required
-                            maxlength="15" />
+                        <input type="text" name="nome" class="rounded w-50" id="nome" placeholder="Digite aqui..."
+                            required maxlength="15" />
                     </div>
                     <br>
                     <br>
@@ -159,11 +184,9 @@
                 <div class="ml-5">
                     <table id="tabela" class="rounded d-flex flex-column">
                         <thead>
-                            <tr>
-                                <th>N°</th>
+                            <tr class="w-100 d-flex justify-content-around">
                                 <th>Nome</th>
                                 <th>Comentário</th>
-                                <th>Excluir</th>
                             </tr>
                         </thead>
                         <tbody id="dados_tabela">
@@ -178,6 +201,6 @@
         </div>
     </footer>
 </body>
-<script src="./js/script.js"></script>
+<script src="./script.js"></script>
 
 </html>

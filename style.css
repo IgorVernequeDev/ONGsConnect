@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #0D733C;
+  padding: 1.5%;
+}
+
+#fonte2 p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+}
+
+p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+h1, h2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#informacoes h2 {
+  font-size: 25px;
+}
+
+button {
+  background-color: #0D733Caa;
+  transition: 0.5s;
+  padding: 0.5%;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+#ong1, #ong2, #ong3, #ong4 {
+  display: none;
+}
+
+#img1, #img2, #img3, #img4 {
+  width: 30%;
+  height: 30%;
+}
+
+ul {
+  font-size: 15px;
+  background-color: #0D733C;
+  color: white;
+  padding: 2%;
+  max-width: 50%;
+}
+
+#comentario {
+  width: 100%;
+  background-color: #CFCFCF;
+  resize: none;
+  border: #CFCFCF;
+  padding: 1%;
+}
+
+#enviar {
+  background-color: #CFCFCF;
+  width: 100%;
+}
+
+#enviar button {
+  margin: 2%
+}
+
+footer {
+  background-color: #0D733C;
+}
+
+footer p {
+  color: white;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#producao, #colaboracao {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+#barra {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+input {
+  background-color: #0D733C;
+  color: white;
+  border: none;
+  padding: 0.5%;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+
+#tabela {
+  background-color: #0D733C;
+  color: white;
+  max-height: 25em;
+}
+
+#dados_tabela {
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+td, th {
+  padding: 1em;
+}
