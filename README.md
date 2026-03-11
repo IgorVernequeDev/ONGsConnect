@@ -10,7 +10,6 @@ Aplicativo web informativo que apresenta e divulga Organizações Não Govername
 * 🏢 Acessar informações detalhadas de cada instituição (endereço, telefone, e-mail, missão, etc.)
 * ✉️ Enviar comentários, dúvidas ou sugestões via formulário
 * 📄 Visualizar comentários enviados anteriormente
-* ❌ Excluir entradas da seção de comentários
 
 ## 🛠️ Tecnologias utilizadas
 
